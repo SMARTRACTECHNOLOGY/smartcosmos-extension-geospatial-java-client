@@ -4,7 +4,7 @@ package net.smartcosmos.objects.extension.geospatial.model;
  * *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
  * SMART COSMOS Geospatial Extension
  * ===============================================================================
- * Copyright (C) 2013 - 2015 SMARTRAC Technology Fletcher, Inc.
+ * Copyright (C) 2013 - 2016 SMARTRAC Technology Fletcher, Inc.
  * ===============================================================================
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.

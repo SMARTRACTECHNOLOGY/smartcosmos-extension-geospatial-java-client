@@ -1,5 +1,5 @@
 /**
- * {@link net.smartcosmos.model.geo.IGeospatialEntry} factory that can create a client instance with
- * {@link net.smartcosmos.client.objects.geospatial.GeospatialFactory#createClient(net.smartcosmos.client.connectivity.ServerContext)}.
+ * {@link net.smartcosmos.objects.extension.geospatial.model.IGeospatialEntry} factory that can create a client instance with
+ * {@link net.smartcosmos.objects.extension.geospatial.client.GeospatialFactory#createClient(net.smartcosmos.client.connectivity.ServerContext)}.
  */
 package net.smartcosmos.objects.extension.geospatial;

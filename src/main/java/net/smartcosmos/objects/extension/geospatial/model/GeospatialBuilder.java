@@ -23,10 +23,7 @@ package net.smartcosmos.objects.extension.geospatial.model;
 import com.google.common.base.Preconditions;
 
 import net.smartcosmos.builder.AbstractNamedObjectBuilder;
-import net.smartcosmos.geo.GeometricShape;
 import net.smartcosmos.model.context.IAccount;
-import net.smartcosmos.model.geo.IGeospatialEntry;
-import net.smartcosmos.pojo.geo.GeospatialEntry;
 
 /**
  * Convenience Builder pattern class for creating new {@link IGeospatialEntry} instances.

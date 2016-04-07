@@ -4,7 +4,7 @@ package net.smartcosmos.extension.geospatial.client;
  * *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
  * SMART COSMOS Objects Developer Edition
  * ===============================================================================
- * Copyright (C) 2013 - 2015 Smartrac Technology Fletcher, Inc.
+ * Copyright (C) 2013 - 2016 Smartrac Technology Fletcher, Inc.
  * ===============================================================================
  * SMARTRAC Technology Fletcher, Inc.
  * 267 Cane Creek Rd, Fletcher, NC, 28732, USA
@@ -28,14 +28,14 @@ import com.fasterxml.jackson.databind.node.DoubleNode;
 
 import org.junit.*;
 
-import net.smartcosmos.builder.GeospatialBuilder;
 import net.smartcosmos.client.connectivity.ServerContext;
 import net.smartcosmos.client.connectivity.ServiceException;
-import net.smartcosmos.client.objects.geospatial.GeospatialFactory;
-import net.smartcosmos.client.objects.geospatial.IGeospatialClient;
-import net.smartcosmos.geo.GeometricShape;
-import net.smartcosmos.geo.GeometricType;
-import net.smartcosmos.model.geo.IGeospatialEntry;
+import net.smartcosmos.objects.extension.geospatial.client.GeospatialFactory;
+import net.smartcosmos.objects.extension.geospatial.client.IGeospatialClient;
+import net.smartcosmos.objects.extension.geospatial.model.GeometricShape;
+import net.smartcosmos.objects.extension.geospatial.model.GeometricType;
+import net.smartcosmos.objects.extension.geospatial.model.GeospatialBuilder;
+import net.smartcosmos.objects.extension.geospatial.model.IGeospatialEntry;
 import net.smartcosmos.pojo.base.ResponseEntity;
 
 public class GeospatialClientIT

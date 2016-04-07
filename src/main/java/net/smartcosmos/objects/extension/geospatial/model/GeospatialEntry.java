@@ -4,7 +4,7 @@ package net.smartcosmos.objects.extension.geospatial.model;
  * *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
  * SMART COSMOS Platform Core SDK
  * ===============================================================================
- * Copyright (C) 2013 - 2015 SMARTRAC Technology Fletcher, Inc.
+ * Copyright (C) 2013 - 2016 SMARTRAC Technology Fletcher, Inc.
  * ===============================================================================
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -25,8 +25,6 @@ import javax.validation.constraints.Size;
 
 import com.fasterxml.jackson.annotation.JsonView;
 
-import net.smartcosmos.geo.GeometricShape;
-import net.smartcosmos.model.geo.IGeospatialEntry;
 import net.smartcosmos.pojo.base.AccountTypedNamedObject;
 import net.smartcosmos.util.json.JsonGenerationView;
 

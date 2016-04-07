@@ -4,7 +4,7 @@ package net.smartcosmos.extension.geospatial.rest;
  * *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
  * SMART COSMOS Objects Test
  * ===============================================================================
- * Copyright (C) 2013 - 2015 Smartrac Technology Fletcher, Inc.
+ * Copyright (C) 2013 - 2016 Smartrac Technology Fletcher, Inc.
  * ===============================================================================
  * SMARTRAC Technology Fletcher, Inc.
  * 267 Cane Creek Rd, Fletcher, NC, 28732, USA
