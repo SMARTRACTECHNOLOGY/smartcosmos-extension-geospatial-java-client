@@ -2,9 +2,9 @@ package net.smartcosmos.objects.extension.geospatial.client;
 
 /*
  * *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
- * SMART COSMOS Platform Client
+ * SMART COSMOS Geospatial Extension Java Client
  * ===============================================================================
- * Copyright (C) 2013 - 2016 SMARTRAC Technology Fletcher, Inc.
+ * Copyright (C) 2013 - 2016 Smartrac Technology Fletcher, Inc.
  * ===============================================================================
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -20,12 +20,12 @@ package net.smartcosmos.objects.extension.geospatial.client;
  * #*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
  */
 
-import java.util.Collection;
-
 import net.smartcosmos.client.connectivity.ServiceException;
 import net.smartcosmos.client.impl.IUpdateableBaseClient;
 import net.smartcosmos.objects.extension.geospatial.model.IGeospatialEntry;
 import net.smartcosmos.util.json.ViewType;
+
+import java.util.Collection;
 
 /**
  * Defines, updates, or queries for {@code net.smartcosmos.objects.extension.geospatial.model.IGeospatialEntry} instances.

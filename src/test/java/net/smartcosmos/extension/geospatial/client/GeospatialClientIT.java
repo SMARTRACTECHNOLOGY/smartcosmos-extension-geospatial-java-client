@@ -2,32 +2,28 @@ package net.smartcosmos.extension.geospatial.client;
 
 /*
  * *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
- * SMART COSMOS Objects Developer Edition
+ * SMART COSMOS Geospatial Extension Java Client
  * ===============================================================================
  * Copyright (C) 2013 - 2016 Smartrac Technology Fletcher, Inc.
  * ===============================================================================
- * SMARTRAC Technology Fletcher, Inc.
- * 267 Cane Creek Rd, Fletcher, NC, 28732, USA
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
  * 
- * All Rights Reserved.
+ *      http://www.apache.org/licenses/LICENSE-2.0
  * 
- * This software is the confidential and proprietary information of
- * SMARTRAC Technology Fletcher, Inc. ("Confidential Information").
- * You shall not disclose such Confidential Information and shall
- * use it only in accordance with the terms of the license agreement
- * you entered into with Smartrac Technology Fletcher, Inc.
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
  * #*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
  */
-
-import java.util.Collection;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.DoubleNode;
-
-import org.junit.*;
-
 import net.smartcosmos.client.connectivity.ServerContext;
 import net.smartcosmos.client.connectivity.ServiceException;
 import net.smartcosmos.objects.extension.geospatial.client.GeospatialFactory;
@@ -37,6 +33,9 @@ import net.smartcosmos.objects.extension.geospatial.model.GeometricType;
 import net.smartcosmos.objects.extension.geospatial.model.GeospatialBuilder;
 import net.smartcosmos.objects.extension.geospatial.model.IGeospatialEntry;
 import net.smartcosmos.pojo.base.ResponseEntity;
+import org.junit.Assert;
+
+import java.util.Collection;
 
 public class GeospatialClientIT
 {

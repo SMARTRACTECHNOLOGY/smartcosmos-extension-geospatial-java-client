@@ -2,9 +2,9 @@ package net.smartcosmos.objects.extension.geospatial.model;
 
 /*
  * *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
- * SMART COSMOS Geospatial Extension
+ * SMART COSMOS Geospatial Extension Java Client
  * ===============================================================================
- * Copyright (C) 2013 - 2016 SMARTRAC Technology Fletcher, Inc.
+ * Copyright (C) 2013 - 2016 Smartrac Technology Fletcher, Inc.
  * ===============================================================================
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -20,13 +20,12 @@ package net.smartcosmos.objects.extension.geospatial.model;
  * #*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
  */
 
-import java.util.ArrayList;
-import java.util.List;
-
 import com.fasterxml.jackson.annotation.JsonView;
 import com.fasterxml.jackson.databind.JsonNode;
-
 import net.smartcosmos.util.json.JsonGenerationView;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class GeometricShape
 {

@@ -2,9 +2,9 @@ package net.smartcosmos.objects.extension.geospatial.client;
 
 /*
  * *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
- * SMART COSMOS Platform Client
+ * SMART COSMOS Geospatial Extension Java Client
  * ===============================================================================
- * Copyright (C) 2013 - 2016 SMARTRAC Technology Fletcher, Inc.
+ * Copyright (C) 2013 - 2016 Smartrac Technology Fletcher, Inc.
  * ===============================================================================
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
