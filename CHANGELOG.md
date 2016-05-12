@@ -1,6 +1,6 @@
 # SMART COSMOS Objects Geospatial Extension Java Client Release Notes
 
-## Release 1.0.0 (??? ??, 2016)
+## Release 1.1.0 (May 12, 2016)
 
 ### New Features
 

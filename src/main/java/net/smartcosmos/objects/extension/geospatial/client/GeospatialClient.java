@@ -2,9 +2,9 @@ package net.smartcosmos.objects.extension.geospatial.client;
 
 /*
  * *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
- * SMART COSMOS Platform Client
+ * SMART COSMOS Geospatial Extension Java Client
  * ===============================================================================
- * Copyright (C) 2013 - 2016 SMARTRAC Technology Fletcher, Inc.
+ * Copyright (C) 2013 - 2016 Smartrac Technology Fletcher, Inc.
  * ===============================================================================
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -20,10 +20,6 @@ package net.smartcosmos.objects.extension.geospatial.client;
  * #*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
  */
 
-import java.util.Collection;
-
-import org.json.JSONObject;
-
 import net.smartcosmos.client.connectivity.ServerContext;
 import net.smartcosmos.client.connectivity.ServiceException;
 import net.smartcosmos.client.impl.base.AbstractUpdateableBaseClient;
@@ -32,6 +28,9 @@ import net.smartcosmos.objects.extension.geospatial.model.GeospatialEntry;
 import net.smartcosmos.objects.extension.geospatial.model.IGeospatialEntry;
 import net.smartcosmos.pojo.base.ResponseEntity;
 import net.smartcosmos.util.json.ViewType;
+import org.json.JSONObject;
+
+import java.util.Collection;
 
 class GeospatialClient extends AbstractUpdateableBaseClient<IGeospatialEntry> implements IGeospatialClient
 {
